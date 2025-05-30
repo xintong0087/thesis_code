@@ -1,0 +1,33 @@
+{
+  "asset_model": "GBM_RS",
+  "contract_type": "GMMB",
+  "n_cores": 20,
+  "save_path": "./result/",
+  "S_0": 1000,
+  "fundValue_0": 1000,
+  "guaranteeValue_0": 1000,
+  "State_0": 0,
+  "transition_prob": [0.04, 0.2],
+  "r": 0.002,
+  "div": 0,
+  "d": 1,
+  "drift_BS": 0.00375,
+  "vol_BS": 0.0457627,
+  "sensitivity": {
+    "drift_RS_outer": [0.0085, -0.05],
+    "vol_RS": [0.035, 0.2]
+  },
+  "regular": {
+    "drift_RS_outer": [0.0085, -0.02],
+    "vol_RS": [0.035, 0.08]
+  },
+  "M": 100000,
+  "n_renewal": 120,
+  "n_steps": 240,
+  "SC_period": 84,
+  "base_lapse": 0,
+  "seed_states_outer": 22,
+  "seed_diffusion_outer": 330,
+  "seed_states_inner": 133,
+  "seed_diffusion_inner": 181
+}
